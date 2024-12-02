@@ -3,12 +3,23 @@
   "name": "AWS Squared Corners",
   "version": "1.0",
   "description": "Restores squared corners for buttons in AWS.",
-  "permissions": ["activeTab"],
   "host_permissions": ["https://*.console.aws.amazon.com/*"],
   "content_scripts": [
     {
       "matches": ["https://*.console.aws.amazon.com/*"],
       "css": ["style.css"]
     }
-  ]
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
 }
