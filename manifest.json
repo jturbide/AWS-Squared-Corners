@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AWS Squared Corners",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Restores squared corners for buttons in AWS.",
   "host_permissions": ["https://*.console.aws.amazon.com/*"],
   "content_scripts": [
